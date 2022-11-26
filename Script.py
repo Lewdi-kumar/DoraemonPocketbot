@@ -12,7 +12,7 @@ def is_enabled(value, default):
 
 class script(object):
     HOME_BUTTONURL_UPDATES = environ.get("HOME_BUTTONURL_UPDATES", 'https://beingtek.com/ref/GreyMatter658')
-    START_TXT = environ.get("START_TXT", '''<b>Hello {} 👋🏻 Im Doraemon. I am here to add unlimited filters for you 😁.</b>
+    START_TXT = environ.get("START_TXT", '''<b>Hello {} 👋🏻 Im Action Kamen. I am here to add unlimited filters for you 😁.</b>
 
 <i>Add Me To Your Group To See The Magic Or Read More From The Menu Below</i>''')
     HELP_TXT = """Hey {}
