@@ -12,9 +12,9 @@ def is_enabled(value, default):
 
 # Bot information
 SESSION = environ.get('SESSION', 'Media_search')
-API_ID = int(environ.get('API_ID', '29596495'))
-API_HASH = environ.get('API_HASH', '30f569d48a7ecc6f11061c59d54d2b07')
-BOT_TOKEN = environ.get('BOT_TOKEN', "5883571490:AAHjRw0N_-ZK9obvuKzFIX_g6ZBWzTT_HtI")
+API_ID = int(environ.get('API_ID', '23289608'))
+API_HASH = environ.get('API_HASH', '95ac94ebc3243d9114f1e0fe0f93613a)
+BOT_TOKEN = environ.get('BOT_TOKEN', "5962927104:AAHmI2z8_UoMzigqZPEHBUA95Vdby0vTOtk")
 
 #Port
 PORT = environ.get("PORT", "8080")
@@ -22,12 +22,12 @@ PORT = environ.get("PORT", "8080")
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
 USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', False))
-PICS = (environ.get('PICS', 'https://telegra.ph/file/9c694bf46ad449ca960f5.jpg')).split()
+PICS = (environ.get('PICS', 'https://telegra.ph/file/f60ee7ddbf1957f92565a.jpg')).split()
 
 # Admins, Channels & Users
-ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '1371812817').split()]
+ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '5409790506').split()]
 CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '0').split()]
-auth_users = [int(user) if id_pattern.search(user) else user for user in environ.get('AUTH_USERS', '1371812817').split()]
+auth_users = [int(user) if id_pattern.search(user) else user for user in environ.get('AUTH_USERS', '5409790506').split()]
 AUTH_USERS = (auth_users + ADMINS) if auth_users else []
 auth_channel = environ.get('AUTH_CHANNEL', '-1001747843482')
 auth_grp = environ.get('AUTH_GROUP')
@@ -35,12 +35,12 @@ AUTH_CHANNEL = int(auth_channel) if auth_channel and id_pattern.search(auth_chan
 AUTH_GROUPS = [int(ch) for ch in auth_grp.split()] if auth_grp else None
 
 # MongoDB information
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://doraemonpocket:movieshalt@cluster0.1ix23ij.mongodb.net/?retryWrites=true&w=majority")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://astatine0085:kishore11@cluster0.s007teg.mongodb.net/?retryWrites=true&w=majority")
 DATABASE_NAME = environ.get('DATABASE_NAME', "cluster0")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'telegram_files')
 
 # Others
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1001550734540'))
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1001893262746'))
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'Movies_halt_owner_bot')
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "True")), True)
 IMDB = is_enabled((environ.get('IMDB', "False")), True)
@@ -75,7 +75,7 @@ URL_SHORTENR_WEBSITE = environ.get('URL_SHORTENR_WEBSITE', 'shorturllink.in')
 URL_SHORTNER_WEBSITE_API = environ.get('URL_SHORTNER_WEBSITE_API', '5b71a61383a7d019b076e9babcbe33ca94a31642')
 
      # Auto Delete For Group Message (Self Delete) #
-SELF_DELETE_SECONDS = int(environ.get('SELF_DELETE_SECONDS', 0.1))
+SELF_DELETE_SECONDS = int(environ.get('SELF_DELETE_SECONDS', 1))
 SELF_DELETE = environ.get('SELF_DELETE', True)
 if SELF_DELETE == "True":
     SELF_DELETE = True
