@@ -17,7 +17,7 @@ class script(object):
 <i>Add Me To Your Group To See The Magic Or Read More From The Menu Below</i>''')
     HELP_TXT = """Hey {}
 Here Is My Help Commands."""
-    ABOUT_TXT = """<b>🤖 My Name : <a href=https://t.me/DoraemonPocketBot><b>Doraemon Pocket</b></a>\n
+    ABOUT_TXT = """<b>🤖 My Name : <a href=https://t.me/actionkamennbot><b>Action Kamen</b></a>\n
 👨‍💻 Developer : <a href=https://t.me/aarthur_dayne><b>Arthur Dayne</b></a>\n
 🧑‍💻 Co-Developer : <a href=https://t.me/astatine_085><b>Astatine 85</b></a>\n
 📝 Language : <a href='https://docs.pyrogram.org/'> Pyrogram</a>\n
@@ -33,7 +33,7 @@ Here Is My Help Commands."""
 - Filter is the feature were users can set automated replies for a particular keyword and Search Bot will respond whenever a keyword is found the message
 
 <b>NOTE:</b>
-1. Doraemon Pocket Bot should have admin privillage.
+1. Action Kamen Bot should have admin privillage.
 2. only admins can add filters in a chat.
 3. alert buttons have a limit of 64 characters.
 
@@ -44,7 +44,7 @@ Here Is My Help Commands."""
 • /delall - <code>delete the whole filters in a chat (chat owner only)</code>"""
     BUTTON_TXT = """Help: <b>Buttons</b>
 
-- Doraemon Pocket Bot Supports both url and alert inline buttons.
+- Action Kamen Bot Supports both url and alert inline buttons.
 
 <b>NOTE:</b>
 1. Telegram will not allow you to send buttons without any content, so content is mandatory.
@@ -79,7 +79,7 @@ Here Is My Help Commands."""
     EXTRAMOD_TXT = """Help: <b>Extra Modules</b>
 
 <b>NOTE:</b>
-These are the extra features of Doraemon Pocket Bot
+These are the extra features of Action Kamen Bot
 
 <b>Commands and Usage:</b>
 • /id - <code>get id of a specified user.</code>
